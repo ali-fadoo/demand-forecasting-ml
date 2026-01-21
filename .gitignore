@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Data & models
+data/
+*.csv
+*.parquet
+models/
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+bin/
+lib/
+share/
+pyvenv.cfg
