@@ -84,8 +84,11 @@ Measured real improvement in forecast accuracy
 
 -----------------------------------------------------------------------------------------------------------------------
 📊 Results
+
 ✅ ~18% improvement in forecast accuracy vs baseline
+
 📈 Demonstrated strong impact of feature engineering
+
 🔍 Produced interpretable, business-relevant predictions
 -----------------------------------------------------------------------------------------------------------------------
 🧱 Tech Stack
