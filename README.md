@@ -23,14 +23,20 @@ Interpretable results
 Build a system that:
 
 Raw Sales Data
+
       ↓
 Preprocessing & Cleaning
+
       ↓
 Feature Engineering
+
       ↓
 ML Model (Regression)
+
       ↓
 Demand Forecasts + Evaluation
+
+
 🧠 Key Features
 📊 End-to-end ML pipeline (data → features → model → evaluation)
 🧩 Modular, scalable codebase
