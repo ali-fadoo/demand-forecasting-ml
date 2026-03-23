@@ -53,8 +53,9 @@ Demand Forecasts + Evaluation
 
 🔁 Fully reproducible training workflow
 
-🏗️ Project Structure
+## 🏗️ Project Structure
 
+```bash
 demand-forecasting-ml/
 ├── src/
 │   ├── data.py        # Data loading & preprocessing
@@ -62,6 +63,7 @@ demand-forecasting-ml/
 │   └── train.py       # Model training & evaluation
 ├── .gitignore
 └── README.md
+```
 
 ⚙️ Methodology
 1. Data Preprocessing
