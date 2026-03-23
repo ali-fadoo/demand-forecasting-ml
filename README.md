@@ -62,6 +62,7 @@ demand-forecasting-ml/
 │   └── train.py       # Model training & evaluation
 ├── .gitignore
 └── README.md
+
 ⚙️ Methodology
 1. Data Preprocessing
 Cleaned and validated raw sales data
