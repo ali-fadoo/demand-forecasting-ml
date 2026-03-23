@@ -40,13 +40,21 @@ Demand Forecasts + Evaluation
 -----------------------------------------------------------------------------------------------------------------------
 
 🧠 Key Features
+
 📊 End-to-end ML pipeline (data → features → model → evaluation)
+
 🧩 Modular, scalable codebase
+
 ⏱️ Time-series feature engineering (lags, rolling stats, trends)
+
 📉 Regression-based forecasting models
+
 📏 Structured evaluation against baseline
+
 🔁 Fully reproducible training workflow
+
 🏗️ Project Structure
+
 demand-forecasting-ml/
 ├── src/
 │   ├── data.py        # Data loading & preprocessing
