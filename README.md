@@ -18,6 +18,7 @@ Clean, modular architecture
 Reproducible workflows
 Practical feature engineering
 Interpretable results
+-----------------------------------------------------------------------------------------------------------------------
 🎯 The Goal
 
 Build a system that:
@@ -36,6 +37,7 @@ ML Model (Regression)
       ↓
 Demand Forecasts + Evaluation
 
+-----------------------------------------------------------------------------------------------------------------------
 
 🧠 Key Features
 📊 End-to-end ML pipeline (data → features → model → evaluation)
