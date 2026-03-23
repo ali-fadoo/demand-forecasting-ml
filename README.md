@@ -1,55 +1,103 @@
 # Demand Forecasting with Machine Learning
 
-This project implements an end-to-end machine learning pipeline to forecast product demand using historical sales data. The goal is to demonstrate practical machine learning development, including data preprocessing, feature engineering, model training, and evaluation.
+AI-powered demand forecasting using machine learning
 
-## Overview
-Accurate demand forecasting is a common real-world problem in operations, retail, and supply chain management. This project focuses on building a clean and reproducible workflow that transforms raw data into reliable demand predictions using regression-based machine learning models.
+Forecast product demand from historical data with a clean, modular ML pipeline.
 
-The emphasis is on modular code design, clear data handling, and interpretable results rather than model complexity.
+Built by Ali Fadoo
 
-## Project Structure
+🚀 Overview
+
+Demand forecasting is a core problem in retail, operations, and supply chain management. Poor forecasts lead to stockouts, overstocking, and revenue loss.
+
+This project builds an end-to-end machine learning pipeline that converts raw sales data into reliable demand predictions.
+
+Unlike many projects that focus only on modeling, this system emphasizes:
+
+Clean, modular architecture
+Reproducible workflows
+Practical feature engineering
+Interpretable results
+🎯 The Goal
+
+Build a system that:
+
+Raw Sales Data
+      ↓
+Preprocessing & Cleaning
+      ↓
+Feature Engineering
+      ↓
+ML Model (Regression)
+      ↓
+Demand Forecasts + Evaluation
+🧠 Key Features
+📊 End-to-end ML pipeline (data → features → model → evaluation)
+🧩 Modular, scalable codebase
+⏱️ Time-series feature engineering (lags, rolling stats, trends)
+📉 Regression-based forecasting models
+📏 Structured evaluation against baseline
+🔁 Fully reproducible training workflow
+🏗️ Project Structure
 demand-forecasting-ml/
 ├── src/
-│ ├── data.py # Data loading and preprocessing
-│ ├── features.py # Feature engineering logic
-│ └── train.py # Model training and evaluation
+│   ├── data.py        # Data loading & preprocessing
+│   ├── features.py    # Feature engineering logic
+│   └── train.py       # Model training & evaluation
 ├── .gitignore
 └── README.md
-
-
-## Methodology
-The project follows a standard machine learning workflow:
-1. **Data Preprocessing** – Clean and validate raw input data.
-2. **Feature Engineering** – Generate time-based and statistical features relevant to demand patterns.
-3. **Model Training** – Train regression models to predict future demand.
-4. **Evaluation** – Assess model performance using error metrics and compare results.
-
-This approach prioritizes correctness, clarity, and reproducibility.
-
-## Technologies Used
-- Python  
-- pandas  
-- scikit-learn  
-- Jupyter Notebooks  
-
-## Results
-The final model achieved an approximate **18% improvement in forecast accuracy** compared to a baseline approach, demonstrating the effectiveness of feature engineering and structured evaluation.
-
-## How to Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ali-fadoo/demand-forecasting-ml.git
-Install dependencies (recommended in a virtual environment):
-
+⚙️ Methodology
+1. Data Preprocessing
+Cleaned and validated raw sales data
+Handled missing values and inconsistencies
+Standardized formats for modeling
+2. Feature Engineering
+Created lag features (previous demand signals)
+Rolling averages to capture trends
+Time-based features (seasonality patterns)
+3. Model Training
+Trained regression models using scikit-learn
+Focused on generalization and stability
+4. Evaluation
+Compared model against a baseline
+Used error metrics (MAE / RMSE)
+Measured real improvement in forecast accuracy
+📊 Results
+✅ ~18% improvement in forecast accuracy vs baseline
+📈 Demonstrated strong impact of feature engineering
+🔍 Produced interpretable, business-relevant predictions
+🧱 Tech Stack
+Layer	Technology	Why
+Language	Python	Core ML + data processing
+Data Processing	pandas, NumPy	Efficient data handling
+Modeling	scikit-learn	Reliable ML models
+Experimentation	Jupyter Notebooks	Fast iteration & analysis
+Pipeline Structure	Modular Python scripts	Clean, scalable design
+▶️ How to Run
+1. Clone the repo
+git clone https://github.com/ali-fadoo/demand-forecasting-ml.git
+cd demand-forecasting-ml
+2. Install dependencies
 pip install -r requirements.txt
-Run the training script:
-
+3. Run the pipeline
 python src/train.py
-Notes
-This project is intended for educational and demonstration purposes.
+💡 Design Decisions
 
-The focus is on the machine learning pipeline rather than production deployment.
+Modular pipeline over notebooks-only
+→ Keeps code clean, reusable, and production-friendly
 
-Author
+Feature engineering > model complexity
+→ Most gains came from better features, not heavier models
+
+Baseline comparison first
+→ Ensures improvements are real and measurable
+
+🔮 Future Improvements
+Add deep learning models (LSTM, Transformer-based forecasting)
+Incorporate external signals (holidays, promotions, macro data)
+Deploy as an API for real-time predictions
+Build a dashboard for visualization
+👤 Author
+
 Ali Fadoo
-
+Honours Economics & Computer Science @ McMaster University
