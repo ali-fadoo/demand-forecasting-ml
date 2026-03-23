@@ -64,7 +64,7 @@ demand-forecasting-ml/
 ├── .gitignore
 └── README.md
 ```
-
+-----------------------------------------------------------------------------------------------------------------------
 ⚙️ Methodology
 1. Data Preprocessing
 Cleaned and validated raw sales data
@@ -81,10 +81,13 @@ Focused on generalization and stability
 Compared model against a baseline
 Used error metrics (MAE / RMSE)
 Measured real improvement in forecast accuracy
+
+-----------------------------------------------------------------------------------------------------------------------
 📊 Results
 ✅ ~18% improvement in forecast accuracy vs baseline
 📈 Demonstrated strong impact of feature engineering
 🔍 Produced interpretable, business-relevant predictions
+-----------------------------------------------------------------------------------------------------------------------
 🧱 Tech Stack
 Layer	Technology	Why
 Language	Python	Core ML + data processing
@@ -92,6 +95,7 @@ Data Processing	pandas, NumPy	Efficient data handling
 Modeling	scikit-learn	Reliable ML models
 Experimentation	Jupyter Notebooks	Fast iteration & analysis
 Pipeline Structure	Modular Python scripts	Clean, scalable design
+-----------------------------------------------------------------------------------------------------------------------
 ▶️ How to Run
 1. Clone the repo
 git clone https://github.com/ali-fadoo/demand-forecasting-ml.git
@@ -100,6 +104,7 @@ cd demand-forecasting-ml
 pip install -r requirements.txt
 3. Run the pipeline
 python src/train.py
+-----------------------------------------------------------------------------------------------------------------------
 💡 Design Decisions
 
 Modular pipeline over notebooks-only
@@ -110,6 +115,7 @@ Feature engineering > model complexity
 
 Baseline comparison first
 → Ensures improvements are real and measurable
+-----------------------------------------------------------------------------------------------------------------------
 
 🔮 Future Improvements
 Add deep learning models (LSTM, Transformer-based forecasting)
