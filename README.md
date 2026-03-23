@@ -120,24 +120,29 @@ pip install -r requirements.txt
 python src/train.py
 ```
 -----------------------------------------------------------------------------------------------------------------------
-💡 Design Decisions
+## 💡 Design Decisions
 
-Modular pipeline over notebooks-only
-→ Keeps code clean, reusable, and production-friendly
+- **Modular pipeline over notebooks-only**  
+  → Keeps code clean, reusable, and production-friendly  
 
-Feature engineering > model complexity
-→ Most gains came from better features, not heavier models
+- **Feature engineering > model complexity**  
+  → Most performance gains came from better features, not heavier models  
 
-Baseline comparison first
-→ Ensures improvements are real and measurable
------------------------------------------------------------------------------------------------------------------------
+- **Baseline comparison first**  
+  → Ensures improvements are real and measurable  
 
-🔮 Future Improvements
-Add deep learning models (LSTM, Transformer-based forecasting)
-Incorporate external signals (holidays, promotions, macro data)
-Deploy as an API for real-time predictions
-Build a dashboard for visualization
-👤 Author
+---
 
-Ali Fadoo
-Honours Economics & Computer Science @ McMaster University
+## 🔮 Future Improvements
+
+- Add deep learning models (LSTM, Transformer-based forecasting)  
+- Incorporate external signals (holidays, promotions, macro data)  
+- Deploy as an API for real-time predictions  
+- Build a dashboard for visualization  
+
+---
+
+## 👤 Author
+
+**Ali Fadoo**  
+Honours Economics & Computer Science @ McMaster University  
