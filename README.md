@@ -105,10 +105,11 @@ Measured real improvement in forecast accuracy
 ▶️ How to Run
 1. Clone the repo
 git clone https://github.com/ali-fadoo/demand-forecasting-ml.git
+
 cd demand-forecasting-ml
-2. Install dependencies
+3. Install dependencies
 pip install -r requirements.txt
-3. Run the pipeline
+4. Run the pipeline
 python src/train.py
 -----------------------------------------------------------------------------------------------------------------------
 💡 Design Decisions
