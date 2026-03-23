@@ -102,15 +102,23 @@ Measured real improvement in forecast accuracy
 | Experimentation    | Jupyter Notebooks      | Fast iteration & analysis |
 | Pipeline Structure | Modular Python scripts | Clean, scalable design |
 -----------------------------------------------------------------------------------------------------------------------
-▶️ How to Run
-1. Clone the repo
-git clone https://github.com/ali-fadoo/demand-forecasting-ml.git
+## ▶️ How to Run
 
+### 1. Clone the repository
+```bash
+git clone https://github.com/ali-fadoo/demand-forecasting-ml.git
 cd demand-forecasting-ml
-3. Install dependencies
+```
+
+### 2. Install dependencies
+```bash
 pip install -r requirements.txt
-4. Run the pipeline
+```
+
+### 3. Run the pipeline
+```bash
 python src/train.py
+```
 -----------------------------------------------------------------------------------------------------------------------
 💡 Design Decisions
 
