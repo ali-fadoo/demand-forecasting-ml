@@ -91,13 +91,15 @@ Measured real improvement in forecast accuracy
 
 🔍 Produced interpretable, business-relevant predictions
 -----------------------------------------------------------------------------------------------------------------------
-🧱 Tech Stack
-Layer	Technology	Why
-Language	Python	Core ML + data processing
-Data Processing	pandas, NumPy	Efficient data handling
-Modeling	scikit-learn	Reliable ML models
-Experimentation	Jupyter Notebooks	Fast iteration & analysis
-Pipeline Structure	Modular Python scripts	Clean, scalable design
+## Tech Stack
+
+| Layer               | Technology             | Why |
+|--------------------|------------------------|-----|
+| Language           | Python                 | Core ML + data processing |
+| Data Processing    | pandas, NumPy          | Efficient data handling |
+| Modeling           | scikit-learn           | Reliable ML models |
+| Experimentation    | Jupyter Notebooks      | Fast iteration & analysis |
+| Pipeline Structure | Modular Python scripts | Clean, scalable design |
 -----------------------------------------------------------------------------------------------------------------------
 ▶️ How to Run
 1. Clone the repo
